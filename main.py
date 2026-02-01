@@ -10,7 +10,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import telebot
 
 # --- CONFIGURATION ---
-BOT_TOKEN = "8315975028:AAF8wszZMHe4X_fLLM9Q5Z4klFbOolkDlVs"
+BOT_TOKEN = "8375196048:AAGBKqEXVfyPKhor2hbnxyCJYqJdIB2QUBI"
 SHEIN_URL = "https://www.sheinindia.in/c/sverse-5939-37961"
 USERS_FILE = "users.json"
 
@@ -18,7 +18,7 @@ USERS_FILE = "users.json"
 # Apni Telegram Chat ID yahan daalein (Sirf Number).
 # Example: 123456789
 # Agar nahi daloge to Initial Count ka message nahi milega.
-ADMIN_CHAT_ID = None 
+ADMIN_CHAT_ID = 660832862
 
 # Bot Setup
 bot = telebot.TeleBot(BOT_TOKEN)
